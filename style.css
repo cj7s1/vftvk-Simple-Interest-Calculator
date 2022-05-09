@@ -1,4 +1,50 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family: arial;
+    color: white;
+}
+
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 27vw;
+    padding: 20px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.high {
+    background-color: yellow;
+}
+
+h1 {
+    color:grey;
+    font-family: verdana;
+}
+
+footer {
+    margin-top: 15px;
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+
+.input {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#compute {
+    margin-left: 15%;
+}
+
+#results-box {
+    margin-left: 15%;
+}
 
 
