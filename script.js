@@ -30,5 +30,5 @@ function compute()
 //Update the value next to the slider so that the user can see what value the slider corispondes to
 function updateRate() {
     var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText = rateval;
+    document.getElementById("rate_val").innerText = rateval + "%";
 }
